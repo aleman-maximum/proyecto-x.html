@@ -1,0 +1,174 @@
+header{
+   position: fixed;
+   display: flex;
+   width: 100%;
+   height: 70px;
+   background-image:url(https://st4.depositphotos.com/30440304/40037/i/450/depositphotos_400374590-stock-photo-star-field-galaxy-space-colorful.jpg);
+   justify-content: space-between;
+   align-content: center;
+   padding-top: 40px;
+ margin: 0px;
+}
+.menu{
+   margin: 0;
+}
+.logo a{
+   text-decoration: none;
+}
+.logo{
+   
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+
+}
+
+.logo img{
+   margin-right:10px;
+   margin-left:20px;
+   width:70px;
+   height:70px;
+}
+
+a{
+    
+   text-decoration: none;
+  
+   
+}
+
+nav a{
+   height: 70px;
+   vertical-align: top;
+    margin: 0 10px;
+   text-align: center;
+   float: right;
+   justify-content: space-between;
+   font-weight: 600;
+   padding-right:10px ;
+}
+
+nav a:hover{
+   color: white;
+}
+
+
+
+
+
+body{   
+margin: 0px;
+background-color:black;
+font-family: sans-serif;
+font-family: monaco;
+ 
+}
+
+.ingles{
+   text-align: center;
+   align-content: center;
+  text-shadow: 0 0 5px red , 0 0 25px red ;
+
+}
+
+p{
+    text-shadow: 0 0 5px #ffeb3b , 0 0 25px #ffeb3b  ;
+}
+
+h4{            
+   text-shadow: 0 0 5px #c2185b , 0 0 25px #c2185b  ;
+}
+}
+tr{
+   text-align:center;
+}
+iframe{
+   align-content:center;
+}
+
+.imagenes button{
+   align-content:left;
+   width: 220px;
+   height: 100px;
+   background-color: black;
+   margin: 10px;
+   box-shadow: 0 0 5px #4a148c   , 0 0 25px #4a148c   ;
+}
+.imagenes button:hover{
+   color: white;
+   align-content: left;
+  background-color: black;
+  transform: scale(1.1);
+}
+
+.ingles{
+   text-shadow: 0 0 5px #9575cd   , 0 0 25px #9575cd   ;  
+
+}
+table{
+   box-shadow: 0 0 5px white , 0 0 25px white;
+}
+
+.imagenes img{
+   width: 75px;
+   height: 75px;
+}
+.footer{
+   position:relative;
+   background:skyblue;
+   min-height:100px;
+   padding:20px 50px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+}
+.social-icon{
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   position: relative;
+   margin: 10px 5px;
+   flex-wrap: wrap;
+      list-style:none;
+}
+.icon{
+   color: white;
+   font-size:32px;
+   display:inline-block;
+   margin: 0 10px;
+   transition:0.5s;
+}
+.icon:hover{
+   transform:translatey(-10px);
+}
+img{
+   width:30px;
+   height:30px;
+}
+.menu{
+   display:flex;
+   justify-content:center;
+   position:relative;
+   align-items:center;
+   margin:10px 0;
+   flex-wrap: wrap;
+}    .menu-elem{
+   list-style:none;
+
+}   .menu-icon{
+   color:white;
+   font-size:15px;
+   display:inline-block;
+   margin: 5px 10px;
+   opacity: 0.5;
+   transition: 0.3s;
+}   .menu-icon:hover{
+   opacity:1;
+}   .text{
+   color:white;
+   text-align:center;
+   margin-top:15px;
+   margin-bottom:10px;
+   font-size:15px;
+}

@@ -1,0 +1,164 @@
+body{
+background-color:black;
+font-family: sans-serif;
+margin:0;
+color:white;
+padding:0;
+}
+
+header{
+	background-color:#73eaff ;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	height:80px;
+}
+
+.logo{
+	display:flex;
+	align-items: center;
+}
+.logo img{
+	height:70px;
+	width:100px;
+	margin-left:10px;
+}
+.logo a{
+	padding:10px;
+	text-decoration: none;
+	color:black;
+}
+.logo a:hover{
+	color:red;
+}
+.logo-2 ul{
+list-style:none;
+	padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.logo-2 li{
+	display:flex;
+	align-items:center;
+	 height: 100%;
+}
+.logo-2 a{
+	 height: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 0.5em;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.logo-2 a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; 
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+}
+
+.logo-2 a:hover::after {
+    width: 100%;  /* La línea se expande al 100% del ancho del enlace */
+}
+
+.logo-2 a:hover {
+    color: blueviolet; /* Opcional: cambia el color del texto al pasar el cursor */
+}
+.temas img{
+	width:100px;
+	height:100px;
+	margin:50px;
+}
+h1{
+	text-shadow:0 0 5px #73eaff ,0 0 25px #73eaff ;
+	text-align:center;
+}
+
+.temas button{
+	background-color:black;
+	margin:10px;
+	box-shadow:0 0 5px #73eaff  ,0 0 25px #73eaff ;
+	cursor:pointer;
+	border-radius:20px;
+	transition: transform 0.3s ease;
+
+}
+.temas button:hover{
+	background-color:#73eaff  ;
+    transform: scale(1.1);
+}
+.temas h2{
+	color:whitesmoke;
+	text-shadow:0 0 5px #73eaff  ,0 0 25px #73eaff ;
+}
+.footer{
+	margin-top:80px;
+	position:relative;
+	background:skyblue;
+	min-height:100px;
+	padding:20px 50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+.social-icon{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+	margin: 10px 5px;
+	flex-wrap: wrap;
+		list-style:none;
+}
+.icon{
+	color: white;
+	font-size:32px;
+	display:inline-block;
+	margin: 0 10px;
+	transition:0.5s;
+}
+.icon:hover{
+	transform:translatey(-10px);
+}
+img{
+	width:30px;
+	height:30px;
+}
+.menu{
+	display:flex;
+	justify-content:center;
+	position:relative;
+	align-items:center;
+	margin:10px 0;
+	flex-wrap: wrap;
+}
+.menu-elem{
+	list-style:none;
+
+}
+.menu-icon{
+	color:white;
+	font-size:15px;
+	display:inline-block;
+	margin: 5px 10px;
+	opacity: 0.5;
+	transition: 0.3s;
+}
+.menu-icon:hover{
+	opacity:1;
+}
+.text{
+	color:white;
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:10px;
+	font-size:15px;
+}
